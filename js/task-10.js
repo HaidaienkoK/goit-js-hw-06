@@ -28,7 +28,8 @@ function createBoxes(amount) {
 
 btnDestroy.addEventListener("click", () => {
   const divBox = document.querySelectorAll("#newDiv");
-  divBox.forEach((element)=> {
+  divBox.forEach((element) => {
+    sizeBox = 30;
     element.remove();
   });
 });
